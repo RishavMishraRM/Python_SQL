@@ -1,3 +1,5 @@
+# pip install mysql-connector-python
+
 import mysql.connector
 
 conn = mysql.connector.connect(
@@ -6,7 +8,7 @@ conn = mysql.connector.connect(
     user="sqluser",
     password="password" )
 
-# conn = pyodbc.connect(conn_str)
+
 cursor = conn.cursor()
 cursor.execute("SELECT * FROM employees")
 

@@ -13,3 +13,7 @@ VALUES
 
 
 select * from myrestaurant.users;
+
+/*
+ https://www.geeksforgeeks.org/how-to-connect-to-mysql-server-using-vs-code-and-fix-errors/
+ */
