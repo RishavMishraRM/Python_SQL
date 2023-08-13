@@ -13,4 +13,4 @@ cursor = conn.cursor()
 cursor.execute("SELECT * FROM employees")
 
 for row in cursor:
-    print(row)
+    print(row)  
